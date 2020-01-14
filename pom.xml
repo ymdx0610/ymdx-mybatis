@@ -6,6 +6,7 @@
 
     <groupId>com.ymdx</groupId>
     <artifactId>ymdx-mybatis</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -55,6 +56,7 @@
     </properties>
 
     <modules>
+        <module>mybatis-annotation-customize</module>
     </modules>
 
     <!-- 只定义依赖的版本，不会实际依赖 -->

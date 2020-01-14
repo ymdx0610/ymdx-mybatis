@@ -56,7 +56,16 @@ parameterType 值表示Mapper对应方法的入参类型，而resultMap值则对
 
 ![](images/MyBatis层次结构.png)  
 
+### 手写MyBatis框架（注解版，基本实现）
+
+> 示例项目：ymdx-mybatis -> mybatis-annotation-customize  
+
 <hr>
+
+
+
+
+
 
 
 
