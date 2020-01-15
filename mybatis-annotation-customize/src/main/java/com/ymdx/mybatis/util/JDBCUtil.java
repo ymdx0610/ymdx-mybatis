@@ -13,7 +13,7 @@ import java.util.List;
  **/
 public final class JDBCUtil {
 
-    private static String connect;
+    private static String connect = "";
     private static String driverClassName;
     private static String URL;
     private static String username;

@@ -1,5 +1,7 @@
 package com.ymdx.mybatis.annotation;
 
+import java.lang.annotation.*;
+
 /**
  * @ClassName: ExtInsert
  * @Description: TODO
@@ -8,5 +10,9 @@ package com.ymdx.mybatis.annotation;
  * @Date: 2020-01-14 16:07
  * @Version: 1.0
  **/
-public interface ExtInsert {
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.METHOD})
+public @interface ExtInsert {
+    String value();
 }
